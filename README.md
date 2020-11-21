@@ -13,7 +13,7 @@ sudo dpkg -i git-delta_0.4.4_amd64.deb
 
 ```
 
-To deploy, just run the command `invoke deploy`.
+To deploy, just copy the files to their respective locations.
 
 *Warning!* 
 
