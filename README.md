@@ -13,6 +13,7 @@ wget https://github.com/dandavison/delta/releases/download/0.4.4/git-delta_0.4.4
 
 sudo dpkg -i git-delta_0.4.4_amd64.deb
 
+set -Ua fish_user_paths ~/.local/bin
 ```
 
 To deploy, run `invoke dotfiles`
