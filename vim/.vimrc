@@ -14,6 +14,7 @@ set number
 set paste
 set display=truncate            " Show @@@ in the last line if it is truncated.
 
+set expandtab
 set tabstop=4
 set shiftwidth=4
 
