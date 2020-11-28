@@ -7,16 +7,17 @@ This is my collection of dotfiles to build a sane shell environment.
 Just run:
 
 ```
-sudo apt update -y ; sudo apt install -y fish curl python3 python3-pip; pip3 install invoke
+sudo apt update -y ; sudo apt install -y fish curl python3 python3-pip git; pip3 install invoke
 
 wget https://github.com/dandavison/delta/releases/download/0.4.4/git-delta_0.4.4_amd64.deb
 
 sudo dpkg -i git-delta_0.4.4_amd64.deb
 
-set -Ua fish_user_paths ~/.local/bin
+git clone https://github.com/fatwookie/dotfiles
+
 ```
 
-To deploy, run `invoke dotfiles`
+To deploy, run `~/.local/bin/invoke dotfiles`
 
 *Warning!* 
 
