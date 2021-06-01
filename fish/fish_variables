@@ -32,4 +32,4 @@ SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 # Set the user path. This path is prepended to the $PATH
 # This can be appended by the command "set -Ua fish_user_paths [path]"
-SETUVAR fish_user_paths:/home/vincent/\x2elocal/bin/\x1e/home/vincent/bin
+SETUVAR fish_user_paths:/home/vincent/\x2elocal/bin/\x1e/home/vincent/bin\x1e/usr/lib/go\x2d1\x2e14/bin/
