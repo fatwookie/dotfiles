@@ -19,7 +19,7 @@ If you need a different version of `delta`, just download and install:
 
 ```
 wget https://github.com/dandavison/delta/releases/download/0.6.0/git-delta_0.6.0_amd64.deb
-sudo dpkg -i git-delta_0.4.4_amd64.deb
+sudo dpkg -i git-delta_0.6.0_amd64.deb
 ```
 
 To deploy, run `~/.local/bin/invoke dotfiles`
